@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board {
+  height: 250px;
+  width: 250px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0;
+  margin: 0 auto;
+}
+
+.board-square {
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+}
